@@ -51,48 +51,11 @@ Results are saved to `results/figures/` organized by dataset:
 - **cifar10/** - Cifar-10 visualizations (PCA, t-SNE, UMAP)
 - **animals/** - Dogs PCA reconstruction quality comparison
 
-## Dataset Setup
-
-### MNIST Digits
-Auto-downloaded by scikit-learn on first run. No manual setup needed.
-
-### Fashion MNIST
-Download from Kaggle and extract to `datasets/fashion/`:
-```bash
-# Using Kaggle CLI (requires kaggle account and API token)
-kaggle datasets download -d zalando-research/fashionmnist
-unzip fashionmnist.zip -d datasets/fashion/
-```
-
-Or download manually from [Kaggle](https://www.kaggle.com/datasets/zalando-research/fashionmnist) and place CSV files in `datasets/fashion/`.
-
-### CIFAR-10
-Download and extract to `datasets/`:
-```bash
-# Download CIFAR-10 Python version
-curl -O https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
-tar -xzf cifar-10-python.tar.gz
-mv cifar-10-batches-py datasets/
-```
-
-Or download manually from [CIFAR-10 website](https://www.cs.toronto.edu/~kriz/cifar.html).
-
-### Dogs Dataset
-Download from Kaggle and extract to `datasets/dog/`:
-```bash
-# Using Kaggle CLI
-kaggle datasets download -d andrewmvd/animal-faces
-unzip animal-faces.zip
-mv afhq/train/dog datasets/dog/
-```
-
-Or download manually from [Kaggle](https://www.kaggle.com/datasets/andrewmvd/animal-faces) and place dog images in `datasets/dog/`.
-
 ## References
-- MNIST-Digits Dataset:     https://www.kaggle.com/datasets/hojjatk/mnist-dataset
-- MNIST-Fashion Dataset:    https://www.kaggle.com/datasets/zalando-research/fashionmnist
-- Cifar-10 Dataset:         https://www.cs.toronto.edu/~kriz/cifar.html
-- Dogs Dataset:             https://www.kaggle.com/datasets/andrewmvd/animal-faces
+- MNIST-Digits Dataset: https://www.kaggle.com/datasets/hojjatk/mnist-dataset
+- MNIST-Fashion Dataset: https://www.kaggle.com/datasets/zalando-research/fashionmnist
+- Cifar-10 Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
+- Dogs Dataset: https://www.kaggle.com/datasets/andrewmvd/animal-faces
 
 ## Authors
 
